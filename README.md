@@ -29,11 +29,6 @@ npm start
 # Follow docs/setup-guide.md
 ```
 
-## Demo Video Script
-1. **Problem** (15s): Show networking confusion
-2. **Solution** (60s): Demonstrate real-time tracking + venue map
-3. **Impact** (15s): Highlight networking efficiency gains
-
 ## Evaluation Criteria Met
 - ✅ **Problem-Solution Fit**: Directly addresses identification challenges
 - ✅ **Technical Implementation**: Clean React + Firebase architecture
