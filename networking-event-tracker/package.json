@@ -1,0 +1,50 @@
+{
+  "name": "eventtracker-networking-solution",
+  "version": "1.0.0",
+  "description": "Real-time networking intelligence platform for events - solving attendee identification and connection challenges",
+  "main": "frontend/src/index.tsx",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "install-deps": "cd frontend && npm install",
+    "seed-data": "cd frontend && node -e \"import('./src/utils/demoData.js').then(m => m.seedDemoData())\"",
+    "dev": "npm run start",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/eventtracker-networking-solution.git"
+  },
+  "keywords": [
+    "networking",
+    "events",
+    "real-time",
+    "firebase",
+    "react",
+    "geolocation",
+    "mapping",
+    "social-networking",
+    "event-management",
+    "identification",
+    "college-project"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://eventtracker-demo.web.app",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "directories": {
+    "frontend": "frontend",
+    "backend": "backend",
+    "docs": "docs"
+  },
+  "config": {
+    "demo": {
+      "port": 3000,
+      "firebase-project": "eventtracker-demo"
+    }
+  }
+}
